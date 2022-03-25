@@ -9,5 +9,5 @@ public class Ex3_1Ez{
         String name;
         int c;
         while ((c = f.read()) != -1)
-            System.out.print((char) c );
+            System.out.print((char) c + "sss");
     }}
