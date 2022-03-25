@@ -6,9 +6,9 @@ import java.util.Stack;
 
 public class Ex1_1Ez {
     public static void main(String[] args) throws Exception {
-        File f = new File("C://Users//Public//SRCtxt//1.txt");
-        FileReader r = new FileReader(f);
-        PrintWriter writer = new PrintWriter("C://Users//Public//SRCtxt//2.txt");
+      //  File f = new File("C://Users//Public//src//homework1//SRCtxt//1.txt");
+        FileReader r = new FileReader("C://Users//Public//src//homework1//SRCtxt//1.txt");
+        PrintWriter writer = new PrintWriter("C://Users//Public//src//homework1//SRCtxt//2.txt");
         Scanner s = new Scanner(r);
         Stack<Integer> stack = new Stack<>();
         while (s.hasNextInt()) {
