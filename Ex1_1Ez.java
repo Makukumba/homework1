@@ -11,7 +11,7 @@ public class Ex1_1Ez {
         PrintWriter writer = new PrintWriter("C://Users//Public//SRCtxt//2.txt");
         Scanner s = new Scanner(r);
         Stack<Integer> stack = new Stack<>();
-        while (s.hasNext()) {
+        while (s.hasNextInt()) {
             int b = s.nextInt();
             if (b == 0){
                 break;
