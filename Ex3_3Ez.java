@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Ex3_3Ez{
     public static void main(String[] args) throws IOException {
-        FileReader f = new FileReader("C://Users//Public//SRCtxt//3.txt");
+        FileReader f = new FileReader("C://Users//Public//src//homework1//SRCtxt//3.txt");
         Scanner s = new Scanner(f);
         int a = 0;
         String x ="" ;
